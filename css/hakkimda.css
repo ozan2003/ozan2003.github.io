@@ -7,23 +7,19 @@ body
 
 h1, p
 {
-    left: 0;
-    margin-top: -70px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
+    margin: 0 auto;
 }
 
 h1
 {
     font-size: 40px;
+    padding-top: 15%;
+    padding-bottom: 5px;
 }
 
 p
 {
-    top: 58%;
     font-size: 25px;
-    max-width: 600px;
-    left: 30%;
+    padding-bottom: 50px;
+    width: 600px;
 }
