@@ -1,0 +1,30 @@
+body
+{
+    background-color: #000000;
+
+    color: #e8e8e8;
+}
+
+h1, p
+{
+    left: 0;
+    top: 630px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+h1
+{
+    top: 550px;
+    font-size: 40px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 25px;
+    max-width: 610px;
+    left: 30%;
+    padding-bottom: 35px;
+}
