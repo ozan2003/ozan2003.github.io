@@ -1,0 +1,29 @@
+body
+{
+    background-color: #000000;
+
+    color: #e8e8e8;
+}
+
+h1, p
+{
+    left: 0;
+    margin-top: -70px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+p
+{
+    top: 58%;
+    font-size: 25px;
+    max-width: 600px;
+    left: 30%;
+}
