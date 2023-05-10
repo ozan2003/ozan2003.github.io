@@ -1,0 +1,17 @@
+body
+{
+    background-color: #000000;
+
+    color: #e8e8e8;
+}
+
+#Gmail
+{
+    font-size: 40px;
+    padding-top: 15%;
+}
+
+#Hotmail
+{
+    font-size: 37px;
+}
