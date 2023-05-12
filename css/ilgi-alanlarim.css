@@ -1,0 +1,41 @@
+body
+{
+    background-color: #000000;
+
+    color: #e8e8e8;
+}
+
+.centered-container 
+{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+  
+.search-container 
+{
+    max-width: 400px;
+}
+  
+.search-input 
+{
+    margin-right: 0.5rem;
+}
+  
+.search-button 
+{
+    width: 4rem;
+}
+  
+h1
+{
+    font-size: 40px;
+    padding-top: 8%;
+    padding-bottom: 5px;
+}
+
+p
+{
+    font-size: 30px;
+}
