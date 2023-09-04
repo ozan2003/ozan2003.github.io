@@ -16,6 +16,6 @@ p
 {
     font-size: 25px;
     padding-bottom: 50px;
-    width: 600px;
+    max-width: 25em;
     margin: 0 auto;
 }
