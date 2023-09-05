@@ -1,20 +1,13 @@
-body
-{
-    background-color: #000000;
-
-    color: #e8e8e8;
-}
-
 h1
 {
-    font-size: 40px;
+    font-size: 43px;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 p
 {
-    font-size: 25px;
+    font-size: 28px;
     padding-bottom: 50px;
     max-width: 25em;
     margin: 0 auto;
