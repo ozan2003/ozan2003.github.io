@@ -1,10 +1,10 @@
 h1, p
 {
     left: 0;
-    margin-top: -70px;
+    /*margin-top: -70px;*/
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 40%;
     width: 100%;
 }
 
@@ -15,6 +15,6 @@ h1
 
 p
 {
-    top: 58.5%;
+    top: 48%;
     font-size: 45px;
 }

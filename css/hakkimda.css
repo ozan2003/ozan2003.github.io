@@ -7,13 +7,13 @@ h1, p
 h1
 {
     font-size: 45px;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5px;
 }
 
 p
 {
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     /*width: 600px;*/ /* changed to 25em. */
 }
