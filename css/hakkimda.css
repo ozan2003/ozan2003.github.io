@@ -1,4 +1,4 @@
-h1,
+/*h1,*/
 p {
     margin: 0 auto;
     max-width: 25em;
@@ -6,13 +6,18 @@ p {
 
 h1 {
     font-size: 45px;
-    padding-top: 10%;
-    padding-bottom: 5px;
+    /*padding-top: 10%;*/
+    /*padding-bottom: 5px;*/
 }
 
 p {
     font-size: 30px;
     padding-bottom: 40px;
-    /*width: 600px;*/
-    /* changed to 25em. */
+}
+
+/* Make the whole text centered.*/
+article{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 5%;
 }
