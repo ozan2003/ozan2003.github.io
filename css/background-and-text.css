@@ -3,11 +3,9 @@
 /* The font is "Crimson Text". */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
-body
-{
+body {
     background-color: #000000;
 
     color: #e8e8e8;
     font-family: 'Crimson Text', serif;
 }
-

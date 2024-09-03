@@ -1,12 +1,10 @@
-h1
-{
+h1 {
     font-size: 42px;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
-p
-{
+p {
     font-size: 27px;
     padding-bottom: 50px;
     /*width: 600px;*/
