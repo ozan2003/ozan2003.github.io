@@ -1,5 +1,4 @@
-img,
-source {
+#Consbar {
     /* Vertically center. */
     display: block;
     margin-left: auto;
@@ -8,4 +7,4 @@ source {
     /* Horizontally center. */
     margin-top: 15%;
     margin-bottom: auto;
-}
+} 
