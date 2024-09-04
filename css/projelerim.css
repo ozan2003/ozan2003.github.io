@@ -1,10 +1,4 @@
 #Consbar {
-    /* Vertically center. */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    /* Horizontally center. */
-    margin-top: 15%;
-    margin-bottom: auto;
+    padding-block: 70px;
+    max-width: 100%; /* In order to make the bar not to exceed the width of the screen */
 }
