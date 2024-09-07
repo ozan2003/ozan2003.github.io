@@ -2,22 +2,18 @@
 p {
     margin: 0 auto;
     max-width: 25em;
-}
-
-h1 {
-    font-size: 45px;
-    /*padding-top: 10%;*/
-    /*padding-bottom: 5px;*/
-}
-
-p {
     font-size: 30px;
     padding-bottom: 40px;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 /* Make the whole text centered.*/
-article{
+article {
     text-align: center;
     padding-bottom: 40px;
     padding-top: 80px;
+    word-wrap: break-word;
 }
