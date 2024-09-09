@@ -1,8 +1,18 @@
 #Gmail {
     font-size: 43px;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 
 #Hotmail {
     font-size: 40px;
+    /*padding-left: 6px;*/
+}
+
+#Github {
+    font-size: 43px;
+    /*padding-right: 210px;*/
+}
+
+h1 {
+    padding: 0 20px;
 }
