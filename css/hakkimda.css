@@ -1,4 +1,22 @@
-/*h1,*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars */
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
 p {
     margin: 0 auto;
     max-width: 25em;
@@ -8,13 +26,4 @@ p {
 
 h1 {
     font-size: 45px;
-}
-
-/* Make the whole text centered.*/
-article {
-    padding: 0 20px;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 80px;
-    word-wrap: break-word;
 }
