@@ -1,4 +1,47 @@
 #Consbar {
     padding-block: 70px;
-    max-width: 100%; /* In order to make the bar not to exceed the width of the screen */
+    max-width: 100%;
+    /* In order to make the bar not to exceed the width of the screen */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card {
+    width: 100%;
+    max-width: 24rem;
+    background-color: #181818;
+    color: #e8e8e8;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0.8rem;
+}
+
+.card-title {
+    font-size: 45px;
+}
+
+.card-text {
+    font-size: 30px;
+}
+
+.card-link {
+    margin-top: auto;
+    align-self: center;
+    display: flex;
+}
+
+.btn {
+    width: auto;
+    margin: 0 auto;
 }
