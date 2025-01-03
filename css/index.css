@@ -17,4 +17,6 @@ h1 {
 p {
     font-size: 45px;
     margin-top: 18px;
+    white-space: nowrap;
+    overflow-x: auto;
 }
