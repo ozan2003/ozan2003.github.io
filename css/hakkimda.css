@@ -15,7 +15,7 @@ article {
     align-items: center;
     /* Centers content horizontally */
     width: 100%;
-    height: 100%;
+    min-height: 90vh;
     text-align: center;
     padding: 0 20px;
     box-sizing: border-box;
@@ -30,4 +30,25 @@ p {
 
 h1 {
     font-size: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 20px;
+        padding-bottom: 20px;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    article {
+        padding: 20px 10px;
+        min-height: 90vh;
+        justify-content: center;
+    }
 }
