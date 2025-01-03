@@ -24,7 +24,7 @@ h1 {
     gap: 4rem;
     min-height: calc(100vh - 15vh);
     justify-content: center;
-    padding: 2rem 0;
+    padding: 2rem 0.5rem;
 }
 
 .contact-item {
