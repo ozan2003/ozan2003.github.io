@@ -45,3 +45,34 @@
     width: auto;
     margin: 0 auto;
 }
+
+/* Mobile Responsive */
+/* For screen width less than 768px */
+/* Mostly for mobile phones */
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card-title {
+        font-size: 32px;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+}
+
+/* For screen width between 769px and 1024px */
+/* Mostly for tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
