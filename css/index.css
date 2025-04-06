@@ -1,22 +1,38 @@
-h1,
-p {
+.main-content {
     position: absolute;
     left: 50%;
-    top: 49%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    padding: 0 20px;
 }
 
 h1 {
     font-size: 65px;
-    margin-top: -40px;
+    margin-bottom: 5px;
 }
 
 p {
     font-size: 45px;
-    margin-top: 18px;
+    margin-bottom: 5px;
     white-space: nowrap;
     overflow-x: auto;
+}
+
+.cv-btn {
+    background-color: #1e3fa0;
+    color: #e8e8e8;
+    transition: all 0.3s ease;
+}
+
+.cv-btn:hover {
+    background-color: #152c70;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust the container margin */
+.container.mt-4 {
+    margin-top: 1rem !important;
 }
