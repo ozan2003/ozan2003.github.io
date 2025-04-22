@@ -17,38 +17,71 @@ h1 {
     padding: 0 20px;
 }
 
-.contact-container {
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.card {
+    width: 100%;
+    max-width: 24rem;
+    background-color: #181818;
+    color: #e8e8e8;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.card-body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 4rem;
-    min-height: calc(100vh - 15vh);
-    justify-content: center;
-    padding: 2rem 0.5rem;
+    height: 100%;
+    padding: 1.5rem;
 }
 
-.contact-item {
-    font-size: 2rem;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+.card-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
-.contact-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease;
+.card-icon {
+    margin: 1rem 0;
 }
 
-.contact-item a:hover {
-    color: #007bff;
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
-.contact-item svg {
-    width: 32px;
-    height: 32px;
+.btn {
+    width: auto;
+    margin-top: auto;
+}
+
+/* Mobile Responsive */
+/* For screen width less than 768px */
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
 }
