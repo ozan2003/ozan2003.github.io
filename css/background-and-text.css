@@ -1,10 +1,10 @@
-/* This file controls the background color, text color, and text font. */
+/* Controls the background color, text color, and text font. */
 
 /* The font is "Crimson Text". */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 body {
-    background-color: #000000;
+    background-color: #0D0D0D;
 
     color: #e8e8e8;
     font-family: 'Crimson Text', serif;

@@ -14,7 +14,7 @@
 .card {
     width: 100%;
     max-width: 24rem;
-    background-color: #181818;
+    background-color: #101720;
     color: #e8e8e8;
 }
 
@@ -41,6 +41,7 @@
     display: flex;
 }
 
+/* Button positioning only - colors defined in button-styles.css */
 .btn {
     width: auto;
     margin: 0 auto;

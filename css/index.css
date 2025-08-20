@@ -1,38 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .main-content {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 70px;
+    /* Increased from 65px */
     margin-bottom: 5px;
 }
 
 p {
-    font-size: 45px;
-    margin-bottom: 5px;
-    white-space: nowrap;
-    overflow-x: auto;
+    font-size: 22.5px;
+    /* Add if you have paragraphs */
+    margin-bottom: 20px;
 }
 
 .cv-btn {
-    background-color: #1e3fa0;
-    color: #e8e8e8;
-    transition: all 0.3s ease;
-}
-
-.cv-btn:hover {
-    background-color: #152c70;
-    color: #ffffff;
-    transform: translateY(-2px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18.5px;
+    /* Increased button text */
+    padding: 8px 15px;
+    /* Increased button size */
 }
 
 /* Adjust the container margin */
 .container.mt-4 {
     margin-top: 1rem !important;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 55px;
+        /* Scaled down for mobile */
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .cv-btn {
+        font-size: 19px;
+        padding: 12px 24px;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Make buttons stack vertically on mobile */
+    .d-flex.justify-content-center.gap-3 {
+        flex-direction: column !important;
+        gap: 15px !important;
+        align-items: center;
+    }
 }

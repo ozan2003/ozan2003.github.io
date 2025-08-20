@@ -1,5 +1,10 @@
 /* This file controls the navbar customizations. */
 
+:root {
+    /* Bootstrap default navbar height */
+    --navbar-height: 56px;
+}
+
 /* Navbar color. */
 .navbar {
     background-color: #181818;
@@ -24,6 +29,7 @@
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #eeeeee;
 }
+
 /*--------------------*/
 
 /* Dropdown menu background color */
