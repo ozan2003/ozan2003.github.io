@@ -7,12 +7,12 @@
 
 /* Navbar color. */
 .navbar {
-    background-color: #181818;
+    background-color: var(--surface);
 }
 
 /* Navbar link colors. */
 .nav-link {
-    color: #c1c1c1;
+    color: var(--text-dim);
 }
 
 /* Navbar font sizes. */
@@ -22,31 +22,33 @@
 
 .navbar-brand {
     font-size: 21px;
+    color: var(--text);
 }
 
 /* Navbar link colors when hovered over. */
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #eeeeee;
+    color: var(--text);
 }
 
 /*--------------------*/
 
 /* Dropdown menu background color */
 .dropdown-menu {
-    background-color: #181818;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
 }
 
 /* Dropdown menu items text color */
 .dropdown-item {
-    color: #c1c1c1;
+    color: var(--text-dim);
 }
 
 /* Dropdown item hover/focus state */
 .dropdown-item:hover,
 .dropdown-item:focus {
-    background-color: #282828;
-    color: #eeeeee;
+    background-color: var(--elevated);
+    color: var(--text);
 }
 
 /* Active nav link via aria-current="page" */

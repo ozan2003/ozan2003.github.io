@@ -14,8 +14,16 @@
 .card {
     width: 100%;
     max-width: 24rem;
-    background-color: #101720;
-    color: #e8e8e8;
+    background-color: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    border-color: #27415e;
 }
 
 .card-body {
@@ -28,10 +36,12 @@
 }
 
 .card-title {
+    color: var(--text);
     font-size: clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .card-text {
+    color: var(--text-dim);
     font-size: clamp(1rem, 2.2vw, 1.25rem);
 }
 

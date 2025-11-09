@@ -29,3 +29,9 @@
     border-color: var(--brand);
     box-shadow: 0 0 0 0.2rem rgba(30, 63, 160, 0.25);
 }
+
+.btn:focus-visible,
+.cv-btn:focus-visible {
+    outline: 2px solid #7aa2ff;
+    outline-offset: 2px;
+}
