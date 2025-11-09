@@ -24,13 +24,14 @@ h1 {
     margin: 0 auto;
     height: 100%;
     border: 1px solid var(--border);
-    transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    transition: background-color 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 .card:hover {
+    background-color: var(--elevated);
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-    border-color: #27415e;
+    border-color: #34506e;
 }
 
 /* Card content layout - vertical column for desktop */

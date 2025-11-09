@@ -22,3 +22,14 @@ body {
     font-family: 'Crimson Text', serif;
     line-height: 1.6;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    .card:hover { transform: none; box-shadow: none; }
+    .btn:hover, .cv-btn:hover { transform: none; box-shadow: none; }
+}
