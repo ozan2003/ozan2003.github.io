@@ -5,28 +5,23 @@ body {
 }
 
 .main-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
     flex: 1;
+    min-height: calc(100vh - var(--navbar-height, 56px));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1rem;
 }
 
 h1 {
-    font-size: 70px;
-    /* Increased from 65px */
+    font-size: clamp(2rem, 5vw, 4rem);
     margin-bottom: 5px;
 }
 
 p {
-    font-size: 22.5px;
-    /* Add if you have paragraphs */
+    font-size: clamp(1rem, 2.2vw, 1.4rem);
     margin-bottom: 20px;
 }
 

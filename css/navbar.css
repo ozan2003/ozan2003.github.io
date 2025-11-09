@@ -48,3 +48,9 @@
     background-color: #282828;
     color: #eeeeee;
 }
+
+/* Active nav link via aria-current="page" */
+.navbar-dark .navbar-nav .nav-link[aria-current="page"] {
+    color: #ffffff;
+    font-weight: 600;
+}

@@ -39,7 +39,7 @@ h1 {
 
 /* Card title style */
 .card-title {
-    font-size: 1.8rem;
+    font-size: clamp(1.25rem, 3vw, 1.6rem);
     margin-bottom: 1rem;
 }
 
@@ -50,7 +50,7 @@ h1 {
 
 /* Text style */
 .card-text {
-    font-size: 1.2rem;
+    font-size: clamp(0.95rem, 2.1vw, 1.15rem);
     margin-bottom: 1.5rem;
 }
 

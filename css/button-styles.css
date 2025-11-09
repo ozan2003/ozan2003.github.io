@@ -1,37 +1,31 @@
 /* Shared button styles for all pages */
 
-.btn {
-    background-color: #1e3fa0;
-    color: #e8e8e8;
-    border: 1px solid #1e3fa0;
-    transition: all 0.3s ease;
+:root {
+    --brand: #1e3fa0;
+    --brand-dark: #152c70;
+    --text-on-brand: #e8e8e8;
 }
 
-.btn:hover {
-    background-color: #152c70;
-    border-color: #152c70;
-    color: #ffffff;
-    transform: translateY(-2px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.btn:focus {
-    background-color: #1e3fa0;
-    border-color: #1e3fa0;
-    box-shadow: 0 0 0 0.2rem rgba(30, 63, 160, 0.25);
-}
-
+.btn,
 .cv-btn {
-    background-color: #1e3fa0;
-    color: #e8e8e8;
-    border: 1px solid #1e3fa0;
+    background-color: var(--brand);
+    color: var(--text-on-brand);
+    border: 1px solid var(--brand);
     transition: all 0.3s ease;
 }
 
+.btn:hover,
 .cv-btn:hover {
-    background-color: #152c70;
-    border-color: #152c70;
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
     color: #ffffff;
     transform: translateY(-2px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus,
+.cv-btn:focus {
+    background-color: var(--brand);
+    border-color: var(--brand);
+    box-shadow: 0 0 0 0.2rem rgba(30, 63, 160, 0.25);
 }

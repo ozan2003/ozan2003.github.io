@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 article {
@@ -12,7 +12,7 @@ article {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - var(--navbar-height, 56px));
+    min-height: calc(100vh - var(--navbar-height, 56px));
     text-align: center;
     padding: 0 20px;
     box-sizing: border-box;
@@ -20,13 +20,15 @@ article {
 
 p {
     margin: 0 auto;
-    max-width: 25em;
-    font-size: 30px;
-    padding-bottom: 40px;
+    max-width: 40rem;
+    font-size: clamp(1.1rem, 2.6vw, 1.375rem);
+    /* ~17.6px–22px */
+    padding-bottom: 1.5rem;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: clamp(2rem, 5vw, 3rem);
+    /* ~32px–48px */
 }
 
 @media screen and (max-width: 768px) {
