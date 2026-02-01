@@ -35,10 +35,11 @@
                     <a href="https://github.com/ozan2003/p2p_file_exchange">P2P File Exchange</a>
                 </strong>
                 - A secure peer-to-peer file transfer desktop app for local networks,
-                featuring UDP peer discovery with
-                <abbr title="Elliptic Curve Digital Signature Algorithm">ECDSA</abbr>
-                signing, <abbr title="Transport Layer Security">TLS</abbr>-encrypted
-                TCP transfers with certificate pinning, and per-chunk SHA-256 integrity checks.
+                featuring UDP peer discovery with Ed25519-signed announcements to prevent
+                impersonation, end-to-end encrypted TCP transfers using X25519
+                key exchange + ChaCha20-Poly1305, and
+                <a href="https://en.wikipedia.org/wiki/Trust_on_first_use" title="Trust-On-First-Use">TOFU</a>
+                identity verification with a persistent trust database.
                 Built in <b>C#/.NET 10</b> with <b><a href="https://avaloniaui.net/">Avalonia UI</a></b>.
             </li>
             <li>
