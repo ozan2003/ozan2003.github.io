@@ -1,0 +1,30 @@
+# Ozan Malcı
+
+> The personal website and portfolio for Ozan Malcı, a final-year computer engineering student interested in computer networks, cryptography.
+
+This site contains resume links, biographical background, selected software projects, and contact information. Use the linked pages for the canonical public information available on the website.
+
+Rust is my favorite programming language. I'm currently looking for a job, but first I have to complete my internships and graduate.
+
+If you are a human, prefer using the website in a browser.
+
+## Site pages
+
+- [Home](index.html): Entry page with resume links and brief introduction.
+- [About](about.html): Background, education, and technical interests.
+- [Projects](projects.html): Selected software projects with descriptions and source links.
+- [Contact](contact.html): Email, PGP key, GitHub, LinkedIn, and other contact information.
+
+## Projects
+
+- [P2P File Exchange](https://github.com/ozan2003/p2p_file_exchange): Secure local-network peer-to-peer file transfer desktop app using signed discovery, encrypted transfers, and TOFU identity verification.
+- [RFC Reader](https://github.com/ozan2003/rfc_reader): Rust terminal UI for retrieving and reading IETF RFC documents from the RFC Editor.
+- [Heartbeat Monitor](https://github.com/ozan2003/heartbeat_monitor): Python client-server monitoring tool using ICMP Echo messages and SQLite telemetry storage.
+- [Cloakimg](https://github.com/ozan2003/cloakimg): Rust command-line steganography tool for hiding and extracting data in image files, with optional encryption and integrity checks.
+- [Barbershop Management System](https://github.com/ozan2003/berber_yonetim_sistemi): ASP.NET Core and Entity Framework Core web app for barbershop registration, appointments, and employee profiles.
+
+## Optional
+
+- [English CV](data/cv/en/Ozan_Malcı_EN_CV.pdf): English resume PDF.
+- [Turkish CV](data/cv/tr/Ozan_Malcı_CV.pdf): Turkish resume PDF.
+- [PGP public key](data/OzanMalcı.asc): Public key for encrypted contact.
