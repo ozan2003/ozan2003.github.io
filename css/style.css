@@ -28,6 +28,16 @@ body {
     font-size: 1.1em;
 }
 
+.nav-line ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-line li {
+    display: inline;
+}
+
 main a,
 .nav-line a {
     color: var(--link);
