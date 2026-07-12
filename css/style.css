@@ -31,7 +31,6 @@ body {
 main a,
 .nav-line a {
     color: var(--link);
-    text-decoration: none;
 }
 
 main a:visited,
