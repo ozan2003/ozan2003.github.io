@@ -60,12 +60,10 @@ filtered as spam.
 
 ## About This Site
 
-No JavaScript, React, frameworks, bundlers or node_modules — pure
-HTML and CSS. Zero trackers, zero cookies, zero third-party
-requests. All pages weigh under 10 KB uncompressed.
-Works in terminal browsers (like Lynx) and reading modes.
-Dark theme, web-safe fonts only (sans-serif,
-monospace). No external fonts, CDNs and analytics.
+No JavaScript, React, frameworks, bundlers, or node_modules. The site uses
+HTML and CSS only, with no trackers, cookies, or third-party requests. Pages
+are kept small, work in terminal browsers like Lynx, and use web-safe fonts
+only. No external fonts, CDNs, or analytics.
 
 This site is built with accessibility and availability in mind. Tested with:
 
@@ -73,12 +71,11 @@ This site is built with accessibility and availability in mind. Tested with:
 - Microsoft Internet Explorer version 5.50.4807.2300
 - Mozilla Firefox 2.0.0.20
 
-Compatibility approach: a common-denominator CSS baseline (`css/style.css`)
-(for browser like IE 5.5), plus a progressive-enhancement stylesheet
-(`css/modern.css`) for current browsers. For Netscape 3, which ignores CSS
-entirely, the pages use HTML-level fallbacks: `<body bgcolor...>` for the
-dark theme and `<p align="center">` with `<nobr>` for the horizontal
-navigation.
+Compatibility approach: `css/style.css` provides a simple baseline for older
+browsers like IE 5.5, and `css/modern.css` adds enhancements for current
+browsers. Netscape 3 ignores CSS, so the pages also include HTML fallbacks
+such as `<body bgcolor...>` for the dark theme and `<p align="center">` with
+`<nobr>` for the horizontal navigation.
 
 ## Site Pages
 
