@@ -1,0 +1,82 @@
+/* Progressive enhancement for modern browsers. */
+
+:root {
+    --bg: #0a0a0a;
+    --text: #e8e8e8;
+    --link: #8fb3ff;
+    --link-visited: #c5d7ff;
+    --link-hover: #a9c6ff;
+    color-scheme: dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-size: 1.05rem;
+}
+
+.nav-line {
+    font-size: 1.1rem;
+}
+
+main a,
+.nav-line a {
+    color: var(--link);
+}
+
+main a:visited,
+.nav-line a:visited {
+    color: var(--link-visited);
+}
+
+main a:hover,
+.nav-line a:hover {
+    color: var(--link-hover);
+}
+
+main a:focus-visible,
+.nav-line a:focus-visible {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.65rem;
+}
+
+p {
+    font-size: 1.08em;
+}
+
+li + li {
+    margin-top: 0.35em;
+}
+
+.skip-link {
+    left: calc(12px);
+    top: calc(8px);
+    background: var(--bg);
+    color: var(--text);
+    border: 2px solid var(--link);
+    border-radius: 4px;
+    transform: translateY(-150%);
+    transition: transform 0.2s;
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+    outline: none;
+}
+
+a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+}
