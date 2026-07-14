@@ -48,24 +48,37 @@ X25519, ChaCha20-Poly1305, BLAKE3), steganography (LSB), PGP
 
 ## Contact
 
-- Email: ozanmalci@protonmail.com
+- Email: <ozanmalci@protonmail.com>
 - PGP: GPG 0D84 6180 358F 9790 A723 2988 68E4 C82D 30B5 C450
   (key file: [data/OzanMalcı.asc](data/OzanMalcı.asc))
 - GitHub: [github.com/ozan2003](https://github.com/ozan2003)
 - LinkedIn: [linkedin.com/in/ozan-dev](https://www.linkedin.com/in/ozan-dev)
-- School email: ozan.malci@ogr.sakarya.edu.tr
+- School email: <ozan.malci@ogr.sakarya.edu.tr>
 
 When contacting, mention where you found this information to avoid being
 filtered as spam.
 
 ## About This Site
 
-No JavaScript, no React, no frameworks, no bundlers, no node_modules — pure 
+No JavaScript, React, frameworks, bundlers or node_modules — pure
 HTML and CSS. Zero trackers, zero cookies, zero third-party
 requests. All pages weigh under 10 KB uncompressed.
 Works in terminal browsers (like Lynx) and reading modes.
 Dark theme, web-safe fonts only (sans-serif,
-monospace). No external fonts, no CDNs, no analytics.
+monospace). No external fonts, CDNs and analytics.
+
+This site is built with accessibility and availability in mind. Tested with:
+
+- Netscape Navigator Version 3.04 Gold
+- Microsoft Internet Explorer version 5.50.4807.2300
+- Mozilla Firefox 2.0.0.20
+
+Compatibility approach: a common-denominator CSS baseline (`css/style.css`)
+(for browser like IE 5.5), plus a progressive-enhancement stylesheet
+(`css/modern.css`) for current browsers. For Netscape 3, which ignores CSS
+entirely, the pages use HTML-level fallbacks: `<body bgcolor...>` for the
+dark theme and `<p align="center">` with `<nobr>` for the horizontal
+navigation.
 
 ## Site Pages
 
