@@ -17,14 +17,20 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <nav class="nav-line" aria-label="Primary">
         <p align="center">
-            <a href="index.html">Home</a> /
-            <a href="about.html">About</a> /
-            <a href="projects.html">Projects</a> /
-            <a href="contact.html" aria-current="page">Contact</a>
+            <!-- nobr is necessary for netscape navigator to keep the horizontal layout -->
+            <!-- it does some weird caching stuff so i'm keeping it for compatibility -->
+            <nobr>
+                <a href="index.html">Home</a> /
+                <a href="about.html">About</a> /
+                <a href="projects.html">Projects</a> /
+                <a href="contact.html" aria-current="page">Contact</a>
+            </nobr>
         </p>
         <p align="center">
-            <a href="data/cv/tr/Ozan_Malcı_CV.pdf" hreflang="tr">CV (TR)</a> /
-            <a href="data/cv/en/Ozan_Malcı_EN_CV.pdf" hreflang="en">CV (EN)</a>
+            <nobr>
+                <a href="data/cv/tr/Ozan_Malcı_CV.pdf" hreflang="tr">CV (TR)</a> /
+                <a href="data/cv/en/Ozan_Malcı_EN_CV.pdf" hreflang="en">CV (EN)</a>
+            </nobr>
         </p>
     </nav>
     <main id="main-content">
