@@ -22,14 +22,8 @@ body {
     font-size: 17px;
 }
 
-.nav-line ul {
-    list-style: none;
-    padding: 0;
+.nav-line p {
     margin: 0;
-}
-
-.nav-line li {
-    display: inline;
 }
 
 main a,
