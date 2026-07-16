@@ -52,7 +52,7 @@ p {
     font-size: 1.08em;
 }
 
-li + li {
+li+li {
     margin-top: 0.35em;
 }
 
