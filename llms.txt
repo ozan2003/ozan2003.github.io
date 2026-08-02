@@ -77,6 +77,10 @@ This site is built with accessibility and availability in mind. Tested with:
 - Microsoft Internet Explorer version 5.50.4807.2300
 - Mozilla Firefox 2.0.0.20
 
+Netscape 3.04 predates UTF-8 document decoding, so Turkish characters
+render as mojibake in it but layout is unaffected. All other tested browsers
+render the pages correctly.
+
 Compatibility approach: `css/style.css` provides a simple baseline for older
 browsers like IE 5.5, and `css/modern.css` adds enhancements for current
 browsers. Netscape 3 ignores CSS, so the pages also include HTML fallbacks
