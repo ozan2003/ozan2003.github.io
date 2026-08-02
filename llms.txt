@@ -4,20 +4,20 @@ Ozan Malcı is a final-year Computer Engineering student at Sakarya University,
 graduating September 2026. Born 2003-01-02 in Avcılar, Istanbul. Bilingual:
 Turkish (native) and English.
 
-Interests: computer networks, cryptography, and systems administration. Rust is
+Interests: computer networks, cryptography and systems administration. Rust is
 his favorite programming language.
 
 ## What I'm Looking For
 
-Currently completing internships. Seeking a role in Networking or Systems
-Administration, on-site or hybrid. Available after graduation (2026-09).
+Currently completing internships. Seeking a role in Networking or Network Security,
+on-site or hybrid. Available after graduation (2026-09).
 
 ## Skills
 
-Languages: Rust, C#, Python, SQL
-Technologies: ASP.NET Core, Entity Framework Core, Avalonia UI, SQLite, .NET 10
-Concepts: networking (TCP/UDP, ICMP, peer discovery), cryptography (Ed25519,
-X25519, ChaCha20-Poly1305, BLAKE3), steganography (LSB), PGP
+Languages: Rust, C#, Python, Bash
+Technologies: SQLite, .NET, Cisco Packet Tracer, Git
+Concepts: networking (TCP/IP, wireshark, VLAN),
+cryptography (public-key cryptography, TLS/PKI)
 
 ## Projects
 
@@ -46,6 +46,12 @@ X25519, ChaCha20-Poly1305, BLAKE3), steganography (LSB), PGP
   management, employee profiles. Built with ASP.NET Core and Entity Framework
   Core.
 
+- Domain Info ([repo](https://github.com/ozan2003/domain_info)):
+  A network diagnostics toolkit for DNS, traceroute, WHOIS and ASN lookups,
+  with JWT-secured per-user history and statistics. Built with TypeScript,
+  Hono; Prisma and SQLite, frontend uses React and Vite, deployed on AWS EC2
+  behind Nginx with GitHub Actions CI/CD.
+
 ## Contact
 
 - Email: <ozanmalci@protonmail.com>
@@ -62,7 +68,7 @@ filtered as spam.
 
 No JavaScript, React, frameworks, bundlers, or node_modules. The site uses
 HTML and CSS only, with no trackers, cookies, or third-party requests. Pages
-are kept small, work in terminal browsers like Lynx, and use web-safe fonts
+are kept small, work in terminal browsers like Lynx and use web-safe fonts
 only. No external fonts, CDNs, or analytics.
 
 This site is built with accessibility and availability in mind. Tested with:
